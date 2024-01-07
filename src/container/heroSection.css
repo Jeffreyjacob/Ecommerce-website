@@ -1,0 +1,20 @@
+.heroSection{
+    background-image: url('https://ucarecdn.com/e24946c8-a5f1-401f-9aa8-4a12a45dc879/youngwomanbusinesssuitwearinghat.jpg');
+    height:75vh;
+    background-size: cover;
+    object-fit: contain;
+}
+.heroSection__header{
+    align-items: center;
+    height: 100%;
+}
+
+.heroSection__mainheader,
+.heroSection_subheader{
+    text-align: center;
+
+}
+.heroSection__mainheader{
+    font-family:'Signika Negative', sans-serif;
+}
+

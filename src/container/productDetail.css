@@ -1,0 +1,83 @@
+
+
+.ProductDetail___backbutton{
+    cursor: pointer;
+    margin-left: 15px;
+    padding-top: 30px;
+}
+.ProductDetail__image{
+    width: 100%;
+ }
+.productDetail__briefDesc h4{
+   font-size: 23px;
+   font-family:'Signika Negative', sans-serif;
+}
+
+.productDetail__briefDesc p{
+  font-size:14px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 600;
+  
+}
+.shipping__section span{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
+    color: gray;
+    width: 75%;
+}
+.shipping__section p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.productDetail__briefDesc p span{
+    color: gray;
+    font-weight: 400;
+}
+.size{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.addtocart{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0px;
+}
+.html-content-wrapper img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+
+}
+@media (max-width:992px) {
+    .html-content-wrapper img{
+        height:300px;
+        width: 40%;
+        margin: 10px;
+    
+    
+    }
+}
+@media (max-width:559px) {
+    .html-content-wrapper img{
+        object-fit: contain;
+    }
+}
+.html-content-wrapper p {
+    font-size: 13px;
+    color: #808080;
+    
+}
+.html-content-wrapper b{
+    font-size:14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+}
+.more-details h4{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+}

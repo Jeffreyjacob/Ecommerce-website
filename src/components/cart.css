@@ -1,0 +1,15 @@
+.cart h6{
+    font-size: 14px;
+    font-family:'Signika Negative', sans-serif;
+}
+.date{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 12px;
+    color: gray;
+
+}
+.price{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}

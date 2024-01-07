@@ -1,0 +1,73 @@
+.navbar__right{
+    font-size: 14px;
+    align-items: center;
+}
+.navBar__btn{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.custom-icon{
+    transition: transform 0.3s ease; 
+    font-size:18px;
+}
+.navBar__btn:hover .custom-icon{
+    transform: scale(1.2); /* Increase size on hover */
+}
+
+.offcanvas-title{
+    font-family:'Signika Negative', sans-serif;
+}
+.cartcontainer{
+    height: 270px;
+    overflow-y: scroll;
+
+}
+.subTotal__text{
+    font-family:'Signika Negative', sans-serif;
+    font-size: 16px;
+}
+.subTotel__price{
+    font-family:'Signika Negative', sans-serif;
+    font-size: 16px;
+}
+.total__text{
+    font-family:'Signika Negative', sans-serif;
+    font-size: 14px; 
+}
+.total__price{
+    font-family:'Signika Negative', sans-serif;
+    font-size: 19px;
+}
+.subTotal{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.tax{
+    font-size: 13px;
+    color: gray;
+}
+.notify_cart{
+    border-radius: 50%;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.account-detail,
+.addresses,
+.reset-password{
+   border-bottom: 1px solid black;
+   cursor: pointer;
+}
+.logout{
+    cursor: pointer;  
+}

@@ -1,0 +1,13 @@
+.counter{
+    border: 1px solid gray;
+    width: 130px;
+    height: 38px;
+    justify-content: space-evenly;
+}
+.counter span{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    
+}

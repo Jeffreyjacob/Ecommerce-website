@@ -1,0 +1,100 @@
+.maincart__mainHeader{
+    font-family:'Signika Negative', sans-serif;
+}
+.maincart{
+    padding-top: 10px;
+
+}
+.cardProductHeader p{
+    font-weight:500;
+}
+.cardProductHeader{
+    padding: 5px;
+    background-color:#f0f1f7 ;
+    display: flex;
+    align-items: center;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.total__price{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.cart{
+    
+    margin:13px;
+    padding: 20px;
+}
+.comment-title{
+    font-weight: 500;
+    font-family:'Signika Negative', sans-serif;
+}
+.orderSummary__title{
+    font-weight: 500;
+    font-family:'Signika Negative', sans-serif;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.subtotal{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:'Signika Negative', sans-serif;
+}
+.subtotal__price{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Signika Negative', sans-serif;
+}
+
+.shippingEstimate  p{
+  font-size: 15px;
+  font-weight: 500;
+  font-family:'Signika Negative', sans-serif;
+  margin-top: 10px;
+}
+.shippingEstimate input{
+    border-radius: 0px;
+    padding: 10px;
+}
+.shippingEstimate select{
+    border-radius: 0px;
+    padding: 10px;
+}
+.total{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:'Signika Negative', sans-serif;
+}
+.total__price{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Signika Negative', sans-serif;
+}
+.checkout p{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+.checkout button{
+    padding: 10px;
+    border-radius: 0px;
+}
+
+@media (max-width:770px) {
+    .total__price{
+        display: none;
+    }
+    .cardHeader__text{
+        display: none;
+    }
+    .cardHeader__price{
+        
+    }
+    #cart__image img{
+        object-fit: cover;
+    }
+}

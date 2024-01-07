@@ -1,0 +1,37 @@
+.product__category{
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    margin-top: 9px;
+}
+@media (max-width:"550px") {
+    .product__image{
+        width:70px;
+        
+    }
+}
+
+.carousel-item img{
+    background-size: contain;
+    object-fit: contain;
+}
+
+.product__title{
+    font-size: 15px;
+    font-family:'Signika Negative', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.product__price{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Signika Negative', sans-serif;
+}
+.from{
+    font-weight: 300;
+}
+
+.mainText{
+    font-family:'Signika Negative', sans-serif;
+    color: white;
+}

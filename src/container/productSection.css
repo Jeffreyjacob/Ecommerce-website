@@ -1,0 +1,42 @@
+.top__image{
+    background-image: url('https://new-ella-demo.myshopify.com/cdn/shop/collections/category-express-ordert-1_1920x.jpg?v=1648020486');
+    background-size: cover;
+    object-fit: contain;
+}
+.breadcrumb-item{
+    cursor: pointer;
+}
+.breadcrumb-item:hover{
+   border-bottom: 1px solid white;
+}
+.top__subheader ol li{
+    color: white;
+    font-size: 13px;
+}
+.top__header{
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    font-family:'Signika Negative', sans-serif;
+    text-transform: uppercase;
+}
+thead tr th{
+    font-family:'Signika Negative', sans-serif;
+    font-size: 14px;
+    padding-top: 15px !important;
+    padding-bottom:15px !important;
+}
+.table__title{
+    font-size: 13px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+}
+.Variant_button button{
+    border-radius: 0px;
+    padding: 10px;
+}
+.product__price{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}

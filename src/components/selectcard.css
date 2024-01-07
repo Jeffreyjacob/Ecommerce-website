@@ -1,0 +1,25 @@
+
+.cards{
+   height:180px;
+   background-size: cover;
+   object-fit: contain;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition:background-image 0.3s ease; 
+}
+.cards:hover{
+    transform: scale(0.96);
+}
+.card-title{
+    color: white;
+    text-align: center;
+    width: fit-content;
+    
+}
+.card-title:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+

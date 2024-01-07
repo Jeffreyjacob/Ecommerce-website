@@ -1,0 +1,57 @@
+.signup__header h4{
+    font-family:'Signika Negative', sans-serif;
+}
+.signup {
+    position: relative;
+}
+
+.signup__header p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+@media (max-width:556px) {
+    .signup-input input{
+       width: 100%;
+    } 
+}
+@media (min-width:556px) {
+    .signup-input input{
+     width: 500px;
+    }
+}
+
+.signup-input label{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+    border-radius: 0px;
+   }
+.signup-input input{
+    border-radius: 0px;
+    padding: 10px;
+  } 
+
+#signup-button{
+   border-radius: 0px;
+   padding: 10px;
+   font-size: 17px;
+   font-weight: 500;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.signup-link {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+ 
+}
+.signup-link a{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.spinner{
+    position: absolute;
+    top:49%;
+    right:45%;
+   
+}
